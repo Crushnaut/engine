@@ -1,0 +1,269 @@
+body {
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+p {
+	line-height: 1.5em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 0px;
+}
+h1 {
+	text-align: center;
+	font-size: 24px;
+	text-decoration: underline;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+h2 {
+	font-size: 14px;
+	text-decoration: underline;
+	margin-bottom: 1em;
+	margin-top: 0px;
+}
+h3 {
+	text-indent: 2em;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 0px;
+}
+h4 {
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+a {
+	color: #990000;
+	text-decoration: none;
+}
+ul {
+	line-height: 1.5em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-align: justify;
+}
+.error	{
+	color: #FF0000;
+}
+#container {
+	width: 754px;
+	background-position: center;
+	margin: 0px auto;
+}
+
+#logo {
+	height: 75px;
+	width: 75px;
+	float: left;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #000000;
+}
+
+#search   {
+	float: right;
+	width: 500px;
+	height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+	border-bottom-style: solid;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	margin: 0px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+#search  input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: 1px solid #000000;
+}
+#search p {
+	font-size: 10px;
+	color: #999999;
+	margin: 3px;
+}
+
+#titlebar {
+	height: 50px;
+	width: 400px;
+	float: left;
+}
+#titlebar p {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
+	margin: 10px;
+}
+
+#banner	{
+	float: right;
+	height: 50px;
+	width: 200px;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+
+#usernav {
+	text-align: right;
+}
+
+#usernav a {
+	text-decoration: none;
+	font-size: 10px;
+	display: inline-block;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#usernav a:hover {
+	font-style: italic;
+}
+
+#firstnav {
+	margin: 0px;
+	float: left;
+	width: 750px;
+	vertical-align: bottom;
+	text-align: center;
+	border: 2px solid #000000;
+	background-color: #990000;
+	height: 24px;
+}
+#firstnav a {
+	color: #FFCC00;
+	text-decoration: none;
+	font-size: 12px;
+	display: inline-block;
+	background-image: url(../img/seperator.PNG);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#firstnav a:hover {
+	font-style: italic;
+}
+#firstnav .menuback {
+	background-image: url(../img/blank.png);
+	background-repeat: no-repeat;
+}
+#firstnav #activeTab {
+	font-weight: bold;
+}
+#secondnav {
+	margin: 0px auto;
+	text-align: center;
+}
+#secondnav a {
+	color: #FFCC00;
+	text-decoration: none;
+	font-size: 10px;
+	display: inline-block;
+	background-color: #DD0000;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#secondnav a:hover {
+	font-style: italic;
+}
+#secondnav .menufront {
+	background-image: url(../img/menu2header.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 25px;
+}
+#secondnav .menuback {
+	background-image: url(../img/menu2tail.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-right: 25px;
+}
+#secondnav #activeTab {
+	font-weight: bold;
+}
+#contentcontainer {
+	width: 750px;
+	float: left;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #000000;
+	border-left-color: #000000;
+}
+
+#content {
+	margin: 0px;
+	padding: 10px;
+	float: none;
+}
+#content p {
+	text-align: justify;
+	text-indent: 0em;
+}
+#content table {
+	border: 1px solid #000000;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 0px;
+	position: relative;
+}
+#content td {
+	border: 1px solid #000000;
+	padding: 2px;
+}
+#content th {
+	border: 1px solid #000000;
+	padding: 2px;
+	background-color: #FFCC00;
+}
+#content textarea {
+	width: 90%;
+	height: 30em;
+}
+#content form table {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#content form td {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.money  {
+	text-align: right;
+}
+
+#footer {
+	float: left;
+	width: 750px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #000000;
+	border-left-color: #000000;
+	text-align: center;
+	font-style: italic;
+	color: #CCCCCC;
+}
